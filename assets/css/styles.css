@@ -1,0 +1,71 @@
+body {
+    background: black;
+    color: #fff;
+}
+.form-control {
+    width: 250px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px;
+}
+.form-control:focus {
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fff;
+}
+.main-app {
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bx-current-location {
+    font-size: 20px;
+}
+.live-location {
+    font-size: 20px;
+    width: 400px;
+}
+.single-widget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+}
+.single-widget i {
+    font-size: 150px;
+}
+.single-widget .widget-title {
+    font-size: 30px;
+    color: #ccc;
+}
+.single-widget .widget-value {
+    font-size: 20px;
+    color: red;
+}
+.current-weather {
+    position: relative;
+}
+.current-weather-icon {
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    overflow: hidden;
+    z-index: 9999;
+    background: #fff;
+    color: black;
+}
+.current-weather-icon i {
+    font-size: 100px;
+}
+.mq-input-icon, .mq-icon-clear {
+    display: none !important;
+}
